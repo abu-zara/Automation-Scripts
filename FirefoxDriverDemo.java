@@ -9,7 +9,7 @@ public class FirefoxDriverDemo {
 		WebDriver driver;
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Abdulkarim.samrumi-boys-HP\\Downloads\\selenium-workspace\\geckodriver-v0.19.1-win64/geckodriver.exe");
 		driver = new FirefoxDriver();
-		String baseURL = "http://www.google.com";
+		String baseURL = "https://letskodeit.teachable.com/pages/practice";
 		
 		driver.get(baseURL);
 	}
