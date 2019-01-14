@@ -11,6 +11,7 @@ public class Account {
 	public void depositAmount(double depositAmount) {
 		System.out.println("A deposit of " + depositAmount + " made. New balance is " + depositAmount);
 		this.balance += depositAmount;
+		
 	}
 	
 	public void withdrawal(double withdrawalAmount) {
